@@ -193,9 +193,3 @@ def route_solicitudes():
         db.session.delete(solicitudes)
         db.session.commit()
         return 'SUCCESS'
-    
-
-
-
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5001, debug=True)
